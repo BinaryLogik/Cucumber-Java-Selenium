@@ -1,9 +1,9 @@
 # Cucumber-Java
 
-This is a demonstration project utilizing Maven, Java8, Selenium/WebDriver, JUnit, Lambdas and Cucumber. 
+This is a demonstration project utilizing Maven, Java8, Selenium/WebDriver, JUnit, Lambdas, Multithreading and Cucumber. 
 
 To run this demonstration user must have ChromeDriver installed and in the PATH. The ChromeDriver must match the Chrome
-version installed on your local system.
+version installed on your local system. JUnit when configured via the Surefire plugin will run the features in parallel.
 
 ## Get the code
 
